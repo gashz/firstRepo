@@ -1,4 +1,8 @@
 
+var x = 10;
+x += 20;
+document.getElementById("demo").innerHTML = x;
+
 var myGamePiece;
 var myObstacles = [];
 var myScore;
